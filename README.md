@@ -1,12 +1,12 @@
 ## e-commerce_project
 
-Overview
+### Overview
 
 This project analyzes an e-commerce dataset using Python to generate insights about sales performance.  
 
 The goal is to demonstrate data cleaning, exploratory data analysis (EDA), and data visualization skills using Python.
 
-Objective
+### Objective
 
 This project answers the following questions:
 
@@ -15,28 +15,28 @@ Which products generate the highest revenue?
 Does revenue vary over time (monthly/seasonally)?
 What is the distribution of order statuses?
 
-Dataset
+### Dataset
 
 Source: e-commerce Dataset (Decodelabs virtual internship)
-
+Dataset: 1200 row, 14 columns.
 The dataset contains information, including:
 
-    OrderId
-    Date
-    CustomerID
-    Product
-    Quantity
-    UnitPrice
-    ShippingAddress
-    PaymentMethod
-    OrderStatus
-    TrackingNumber
-    ItemsInCart
-    CouponCode
-    ReferralSource
-    TotalPrice
+OrderId
+Date
+CustomerID
+Product
+Quantity
+UnitPrice
+ShippingAddress
+PaymentMethod
+OrderStatus
+TrackingNumber
+ItemsInCart
+CouponCode
+ReferralSource
+TotalPrice
 
-Tools and Libraries
+### Tools and Libraries
 
 Python
 Pandas
@@ -44,7 +44,7 @@ Matplotlib
 Seaborn
 Jupyter Notebook
 
-Project Workflow
+### Project Workflow
 1. Data Cleaning
 
 checked missing values and column formats
@@ -61,12 +61,11 @@ What payment methods are most commonly used?
 3. Data Visualization
 
 Created visualizations including:
+Count plots
+Bar charts
+line chart
 
-    Count plots
-    Bar charts
-    line chart
-
-Key Findings
+### Key Findings
 
 1- The histogram shows a right skew in total prices, suggesting the presence
 of extreme values
